@@ -1,0 +1,359 @@
+body {
+  background: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url("images/header-pic.jpg");
+  background-position: center;
+  background-size: auto;
+  height: 250px;
+  width: 100%;
+  position: relative;
+}
+
+#header-logo {
+  width: 250px;
+  position: absolute;
+  top: 20%; left: 5%;
+}
+
+#header-sub {
+  margin: auto;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  padding: 0 20%;
+  box-sizing: border-box;
+  font-family: 'PT Sans Narrow';
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 50px;
+  height: 50px;
+  top: 50%; margin-top: -25px;
+  color: #2b2b2b;
+  text-transform: uppercase;
+}
+
+.navigation {
+  height: auto;
+  text-align: center;
+  width: 100%;
+  border-bottom: 1px solid #a6a6a6;
+}
+
+.navigation ul {
+  padding: 0;
+}
+
+.navigation li {
+  padding: 5;
+  font-size: 25px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  margin: 25px;
+  text-transform: uppercase;
+  display: inline-block;
+  font-family: 'PT Sans Narrow';
+}
+
+.content-box {
+  margin: 0;
+  top: 220px;
+  width: 100%;
+  font-family: "Mukta Vaani";
+  box-sizing: border-box;
+}
+
+.content-body {
+  margin: 0 auto;
+  width: 55%;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h3 {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+h4 {
+  font-size: 15px;
+  font-weight: 300;
+}
+
+h5 {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.footer {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+  box-sizing: border-box;
+  display: block;
+  text-align: center;
+  background: #a6a6a6;
+}
+
+/*#footer-text {
+  margin: 0 auto;
+  display: block;
+  font-family: "Mukta Vaani";
+}*/
+
+.clear {
+  clear: both;
+}
+
+.footer ul {
+  width: calc((70% / 3) - 30px);
+  list-style: none;
+  display: inline-block;
+  font-family: "Mukta Vaani";
+  padding: 0;
+  margin: 0;
+}
+
+.footer ul:nth-child(1){
+  text-align: left;
+}
+.footer ul:nth-child(2){
+  text-align: center;
+}
+.footer ul:nth-child(3){
+  text-align: right;
+}
+.footer ul li {
+  display: inline-block;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+}
+html, body {
+  height: 100%;
+}
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -50px;
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+.site-footer, .page-wrap:after {
+  height: 120px;
+}
+.site-footer {
+  background: #a6a6a6;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.badges ul {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.badges ul li {
+  height: 80px;
+  display: inline-block;
+  margin: 0 23px;
+}
+
+.badges ul li img {
+  height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+
+li, .dropbtn {
+    display: inline-block;
+    color: #000;
+    text-align: center
+    text-decoration: none;
+}
+
+ul.menu li a:hover, .dropdown:hover .dropbtn {
+    background-color: #a6a6a6;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-ul {
+  background-color: #a6a6a6;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-li {
+  margin: 0;
+  padding: 0;
+}
+
+#house-graphic {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: right;
+}
+
+#last-sent {
+  margin-bottom: 0px;
+}
+
+#install-graphic {
+  float: right;
+}
+
+#install-graphic, #util-graphic {
+  margin: 5px;
+  margin-bottom: 10px;
+}
+
+#util-graphic {
+  float: left;
+  margin-right: 20px;
+}
+
+#indu-graphic {
+  float: left;
+  max-width:220px;
+  margin: 5px;
+  margin-bottom: 30px;
+  margin-left: 10px;
+  display: block;
+  margin-right: 30px;
+}
+
+#indu-list {
+  margin-bottom: 0px;
+}
+
+#indu-ul {
+  display: grid;
+  text-align: left;
+  margin-left: 15px;
+  margin-bottom: 15px;
+}
+
+.indu-li {
+  text-align: left;
+}
+
+.content-box-indu {
+  margin: 0;
+  top: 220px;
+  width: 100%;
+  font-family: "Mukta Vaani";
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+#verlicht-graphic {
+  float: left;
+  max-width:250px;
+  margin: 5px;
+  margin-right: 30px;
+}
+
+#cai-graphic {
+  float: right;
+  max-width:300px;
+  margin: 20px;
+  margin-right: 30px;
+}
+
+#inter-graphic {
+  float: right;
+  max-width:300px;
+  margin: -5px;
+  margin-right: 30px;
+}
+
+#domo-graphic {
+  float: left;
+  max-width:300px;
+  margin: 10px;
+  margin-right: 30px;
+  margin-bottom: 50px;
+}
+
+#domo-list {
+  margin-bottom: 0px;
+}
+
+#domo-ul {
+  display: grid;
+  text-align: left;
+  margin-left: 15px;
+}
+
+.domo-li {
+  text-align: left;
+}
+
+.down-link {
+  color: #0a683b;
+}
+
+.download {
+  text-align: center;
+}
+
+.info-ul {
+  display: grid;
+  text-align: left;
+}
