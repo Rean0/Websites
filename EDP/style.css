@@ -48,11 +48,9 @@ body {
 }
 
 .navigation li {
-  padding: 5;
   font-size: 25px;
   font-weight: 100;
   letter-spacing: 2px;
-  margin: 25px;
   text-transform: uppercase;
   display: inline-block;
   font-family: 'PT Sans Narrow';
@@ -192,9 +190,19 @@ li, .dropbtn {
     color: #000;
     text-align: center
     text-decoration: none;
+    height: 100%;
+    width: auto;
 }
 
-ul.menu li a:hover, .dropdown:hover .dropbtn {
+ul.menu li a{
+  display: block;
+  height: 100%;
+  width: 100%;
+  padding: 25px;
+  box-sizing: border-box;
+}
+
+ul.menu li a:hover, .dropdown:hover    .dropbtn {
     background-color: #a6a6a6;
 }
 
@@ -224,9 +232,6 @@ li.dropdown {
   background-color: #f1f1f1
 }
 
-.dropdown:hover .dropdown-content {
-    display: block;
-}
 
 a {
   color: #000;
